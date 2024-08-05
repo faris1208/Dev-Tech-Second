@@ -21,7 +21,7 @@ export default function Home() {
               alt="Vercel Logo"
               className={styles.vercelLogo}
               width={100}
-              height={24}
+              height={104}
               priority
             />
           </a>
@@ -34,7 +34,7 @@ export default function Home() {
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
-          height={37}
+          height={137}
           priority
         />
       </div>
@@ -49,7 +49,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information the nagd dh about Next.js features and API.</p>
         </a>
 
         <a
