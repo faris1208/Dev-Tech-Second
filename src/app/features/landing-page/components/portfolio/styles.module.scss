@@ -1,0 +1,239 @@
+@import "../../../../styles/index.scss";
+
+.portfolio_container{
+    // background-color: #01004D;
+    padding: 80px 0px 40px;
+
+    .portfolio_wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .portfolio_head{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            h2{
+                font-family: Rubik;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 37.92px;
+                text-align: left;
+                color: #01004D;
+            }
+        }
+
+        p{
+            font-family: Rubik;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 23.7px;
+            text-align: left;
+            color: #01004D;
+        }
+    }
+
+    .portfolio_portfolio{
+
+        padding: 100px 100px 20px;
+
+        .logo_img{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px 70px;
+    
+            .logo_icon{
+                background-color: transparent;
+                // color: #fff;
+                border-radius: 10px;
+                cursor: pointer;
+                
+
+                .lenbo_img{
+                    width: 100%;
+                    margin-bottom: 20px;
+                    // border-radius: 10px;
+
+                    .lenbo_image{
+                        width: 100% !important;
+                        height: unset !important;
+                        border-radius: 10px;
+                    }
+                }
+
+                .portfolio_text{
+
+                    b{
+                        font-family: Rubik;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 28.73px;
+                        text-align: left;
+                        color: #000000;
+                    }
+
+                    p{
+                        font-family: Rubik;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 24.2px;
+                        text-align: left;
+                        color: #000000;
+                        text-transform: capitalize;
+                    }
+                }
+
+            }
+        }
+
+        .portfolio_button{
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+            
+            button{
+                border: 1px solid #01004D;
+                outline: none;
+                font-family: Poppins;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                color: #01004D;
+                padding: 15px 15px;
+                border-radius: 10px;
+                background: transparent;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #d8d7d7;
+                }
+            }
+        }
+    }
+
+}
+
+@include responsive("mobile"){
+    .portfolio_container{
+        width: 100%;
+        // background-color: #01004D;
+        padding: 60px 0px 40px;
+    
+        .portfolio_wrapper{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+    
+            .portfolio_head{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+    
+                h2{
+                    font-family: Rubik;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 37.92px;
+                    text-align: left;
+                    color: #01004D;
+                }
+            }
+    
+            p{
+                font-family: Rubik;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 23.7px;
+                text-align: left;
+                color: #01004D;
+            }
+        }
+    
+        .portfolio_portfolio{
+    
+            padding: 50px 50px 0px;
+    
+            .logo_img{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+        
+                .logo_icon{
+                    background-color: transparent;
+                    // color: #fff;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    
+    
+                    .lenbo_img{
+                        width: 100%;
+                        margin-bottom: 10px;
+                        // border-radius: 10px;
+    
+                        .lenbo_image{
+                            width: 100% !important;
+                            height: unset !important;
+                            border-radius: 10px;
+                        }
+                    }
+    
+                    .portfolio_text{
+    
+                        b{
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-weight: 700;
+                            line-height: 18.73px;
+                            text-align: left;
+                            color: #000000;
+                        }
+    
+                        p{
+                            font-family: Rubik;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 16.2px;
+                            text-align: left;
+                            color: #000000;
+                            text-transform: capitalize;
+                        }
+                    }
+    
+                }
+            }
+    
+            .portfolio_button{
+                display: flex;
+                justify-content: center;
+                margin-top: 70px;
+                
+                button{
+                    border: 1px solid #01004D;
+                    outline: none;
+                    font-family: Poppins;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    text-align: left;
+                    color: #01004D;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+                    background: transparent;
+                    cursor: pointer;
+    
+                    &:hover{
+                        background-color: #d8d7d7;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+}

@@ -1,0 +1,92 @@
+@import "../../../../styles/index.scss";
+
+.experience_container{
+    width: 100%;
+    background-color: #01004D;
+    padding: 100px 100px;
+
+    .experience_text{
+
+        h1{
+            font-family: boldRubik;
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 65.84px;
+            text-align: left;
+            color: #fff;
+            
+        }
+    }
+
+    .experience_button{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+        button{
+            border: none;
+            outline: none;
+            font-family: Poppins;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            color: #01004D;
+            padding: 15px 15px;
+            border-radius: 10px;
+            background: #DCDCFF;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #bfbfdf;
+            }
+        }
+    }
+}
+
+@include responsive("mobile"){
+    .experience_container{
+        width: 100%;
+        background-color: #01004D;
+        padding: 50px 20px;
+    
+        .experience_text{
+    
+            h1{
+                font-family: boldRubik;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 30.84px;
+                text-align: left;
+                color: #fff;
+                
+            }
+        }
+    
+        .experience_button{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+    
+            button{
+                border: none;
+                outline: none;
+                font-family: Poppins;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 18px;
+                text-align: left;
+                color: #01004D;
+                padding: 10px 15px;
+                border-radius: 10px;
+                background: #DCDCFF;
+                cursor: pointer;
+    
+                &:hover{
+                    background-color: #bfbfdf;
+                }
+            }
+        }
+    }
+
+}

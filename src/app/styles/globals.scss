@@ -1,0 +1,40 @@
+@import "./mixins";
+@import "./variables";
+
+@font-face {
+  font-family: Poppins;
+  src: url("../../../public/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: semiRubik;
+  src: url("../../../public/assets/fonts/Rubik/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: boldRubik;
+  src: url("../../../public/assets/fonts/Rubik/Rubik-Bold.ttf");
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url("../../../public/assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+

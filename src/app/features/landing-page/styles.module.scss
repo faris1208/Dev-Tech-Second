@@ -1,0 +1,12 @@
+@import "../../styles/index.scss";
+
+.landing_page{
+    width: 100%;
+    // max-width: 1440px;
+    // margin: 0 auto;
+
+    @include responsive("tablet") {
+        max-width: 1023px;
+        margin: 0 auto;
+    }
+}

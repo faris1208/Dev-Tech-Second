@@ -1,0 +1,208 @@
+@import "../../../../styles/index.scss";
+
+.services_container{
+    background-color: #01004D;
+    padding: 80px 0px 100px;
+
+    .services_wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .services_head{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            h2{
+                font-family: Rubik;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 37.92px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+
+        p{
+            font-family: Rubik;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 23.7px;
+            text-align: left;
+            color: #fff;
+        }
+    }
+
+    .services_services{
+
+        padding: 60px 150px;
+
+        .logo_img{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 70px 70px;
+    
+            .logo_icon{
+                border: 1px solid #D7D7FF;
+                background-color: transparent;
+                color: #fff;
+                padding: 50px 0px 50px;
+                text-align: center;
+                border-radius: 10px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    background-color: #D7D7FF;
+                    color: #01004D !important;
+                }
+
+                b{
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19.7px;
+                    text-align: center;
+                    color: #fff;
+                    // margin-bottom: 15px;
+                    word-break: break-all;
+                    overflow-wrap: break-word;
+                   
+                }
+
+                p{
+                    font-family: Rubik;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18.7px;
+                    text-align: center;
+                    color: #fff;
+                    // border: 2px solid green;
+                    width: 80%;
+                    margin-top: 15px;
+                }
+
+                small{
+                    font-family: Rubik;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 18.7px;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+}
+
+@include responsive("mobile"){
+    .services_container{
+        background-color: #01004D;
+        padding: 60px 0px 70px;
+    
+        .services_wrapper{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+    
+            .services_head{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 5px;
+    
+                h2{
+                    font-family: Rubik;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 37.92px;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+    
+            p{
+                font-family: Rubik;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 23.7px;
+                text-align: left;
+                color: #fff;
+            }
+        }
+    
+        .services_services{
+    
+            padding: 60px 50px 0px;
+    
+            .logo_img{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+        
+                .logo_icon{
+                    border: 1px solid #D7D7FF;
+                    background-color: transparent;
+                    color: #fff;
+                    padding: 50px 0px 50px;
+                    text-align: center;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    align-items: center;
+    
+                    &:hover{
+                        background-color: #D7D7FF;
+                        color: #01004D !important;
+                    }
+    
+                    b{
+                        font-family: Rubik;
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 19.7px;
+                        text-align: center;
+                        color: #fff;
+                        // margin-bottom: 15px;
+                        word-break: break-all;
+                        overflow-wrap: break-word;
+                       
+                    }
+    
+                    p{
+                        font-family: Rubik;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 18.7px;
+                        text-align: center;
+                        color: #fff;
+                        // border: 2px solid green;
+                        width: 80%;
+                        margin-top: 15px;
+                    }
+    
+                    small{
+                        font-family: Rubik;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 18.7px;
+                        text-align: center;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        
+    }
+}
